@@ -25,6 +25,11 @@
 //  For more information, please refer to <http://unlicense.org/>
 //
 
+//  Available from GitHub
+//  https://github.com/tparry/NSData-Crypto
+
+#import <Foundation/Foundation.h>
+
 @interface NSString (Crypto)
 
 + (instancetype) md2WithContentsOfFile:(NSString*) path;
