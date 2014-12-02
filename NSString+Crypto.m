@@ -131,7 +131,7 @@
 }
 
 #pragma mark -
-#pragma Private
+#pragma mark Private
 
 + (instancetype) digestWithContentsOfFile:(NSString*) path withContext:(void*) context initFunction:(int(*)(void*)) initFunction updateFunction:(int(*)(void*, const void*, CC_LONG)) updateFunction finalFunction:(int(*)(unsigned char*, void*)) finalFunction length:(CC_LONG) digestLength
 {

@@ -80,7 +80,6 @@
 	return [self digestForFunction:CC_SHA512 length:CC_SHA512_DIGEST_LENGTH];
 }
 
-
 #pragma mark -
 #pragma mark Private
 
