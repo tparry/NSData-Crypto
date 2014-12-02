@@ -87,7 +87,7 @@
 - (NSString*) digestForFunction:(unsigned char* (*)(const void*, CC_LONG, unsigned char*)) digestFunction length:(CC_LONG) digestLength
 {
 	unsigned char digest[digestLength];
-	digestFunction(self.bytes, self.length, digest);
+	digestFunction(self.bytes, (CC_LONG)self.length, digest);
 	
 	NSMutableString* result = [NSMutableString stringWithCapacity:(digestLength * 2)];
 	
